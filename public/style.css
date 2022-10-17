@@ -1,5 +1,5 @@
 .form-container{
-  display: none;
+  display: flex;
   flex-direction: column;
   max-width: 20rem;
   position: absolute;
