@@ -16,7 +16,7 @@ const productSchema = mongoose.Schema({
     {
         timestamps: true
     })
-
+    
 const Product = mongoose.model('Products', productSchema, 'ProductsMG')
 
 app.use(express.json())
